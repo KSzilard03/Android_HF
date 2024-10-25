@@ -63,10 +63,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         android:textColor="@android:color/black"
-        android:visibility="gone" />
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/sellPrice"
@@ -74,8 +74,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:text="TextView"
-        app:layout_constraintStart_toStartOf="@+id/buyPrice"
-        app:layout_constraintTop_toBottomOf="@+id/buyPrice"
         android:textColor="@android:color/black"
-        android:visibility="gone" />
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@+id/buyPrice"
+        app:layout_constraintTop_toBottomOf="@+id/buyPrice" />
 </androidx.constraintlayout.widget.ConstraintLayout>
